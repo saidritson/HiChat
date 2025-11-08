@@ -176,5 +176,20 @@ public class ChatService implements IChatService {
         // regresa
         return lista;
     }
+
+    @Override
+    public Boolean cambiarAliasDelChat(Chat chat, String nuevoNombre) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public List<Chat> cargarChatsDelUsuario(Usuario usuario) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public Boolean mandarMensaje(Chat chat, String mensaje) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
 

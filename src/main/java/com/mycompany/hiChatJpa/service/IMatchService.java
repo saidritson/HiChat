@@ -24,4 +24,6 @@ public interface IMatchService {
     List<Match> listarPorUsuarioA(Usuario usuario);
 
     List<Match> listarPorUsuarioB(Usuario usuario);
+        List<Match> mostrarMatches(Usuario usuario) throws Exception;
+
 }
